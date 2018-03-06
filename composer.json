@@ -1,0 +1,26 @@
+{
+    "name": "codeurx/laravel-xml",
+    "description": "Exports Laravel's response to xml",
+    "type": "library",
+    "require": {
+        "php": ">=5.5.9"
+    },
+    "authors": [
+        {
+            "name": "Amir Ali Salah",
+            "email": "codeurx@gmail.com"
+        }
+    ],
+    "autoload": {
+        "psr-4": {
+            "Codeurx\\XmlResponse\\": "src/"
+        }
+    },
+    "extra": {
+        "laravel": {
+            "aliases": {
+                "XmlResponse": "Codeurx\\XmlResponse"
+            }
+        }
+    }
+}
